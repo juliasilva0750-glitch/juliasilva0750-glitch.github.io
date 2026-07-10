@@ -1,0 +1,17 @@
+p {color: black; }
+body { background-color: antiquewhite; }
+b {
+    color: aquamarine;
+}
+i {
+    color: blueviolet;
+}
+u{
+    color: green;    
+}
+ul li {
+    color: purple;
+}
+ol li {
+    color: orange;
+}

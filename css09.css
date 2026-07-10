@@ -1,0 +1,26 @@
+table {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-spacing: 2px;
+}
+table tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
+}
+table tr th {
+    color: rgb(197, 92, 92);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+
+}
+table tr td{
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+body {background-color: rgb(39,39,39);}
