@@ -1,0 +1,39 @@
+#linha01{
+    background-color: aquamarine;
+    width: 150px;
+    color: rgb(0, 0, 0);
+}
+#linha02{
+  background-color: blue;
+  width: 150px;
+  color: rgb(0, 0, 0);
+}
+#linha03{
+    background-color: crimson;
+    width: 150px;
+    color: rgb(0, 0, 0);
+}
+#geral{
+    background-color: darkorchid;
+    width: 150px;
+}
+#geral #coluna01 {
+    background-color: aqua;
+    width: 35%;
+    height: 10%;
+    color: black;
+    float: left;
+}
+#geral #coluna02{
+    background-color: darkviolet;
+    width: 35%;
+    height: 10%;
+    float: left;
+}
+#geral #coluna03{
+background-color: rebeccapurple;
+width: 30%;
+height: 10%;
+/*float: left;*/
+clear: both;
+}

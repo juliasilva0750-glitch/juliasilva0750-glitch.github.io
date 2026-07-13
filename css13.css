@@ -1,0 +1,19 @@
+#geral{
+    /*position: absolute;*/
+    background-color: darksalmon;
+    width: 100px;
+    height: 200px;
+    color: aquamarine;
+}
+#coluna01{
+    width: 100%;
+    height: 30%;
+}
+#coluna02{
+    width: 100%;
+    height: 30%;
+}
+#coluna03{
+    width: 100%; 
+    height: 30%;
+}
