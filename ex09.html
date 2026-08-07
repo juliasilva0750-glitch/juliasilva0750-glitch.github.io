@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Exemplo 09</title>
+</head>
+<body>
+    <button id="btn_clicar" type="button">Me clique!</button>
+    <br>
+    <span id="spn_clicar">Texto a ser alterado...</span> 
+    <script>
+        var btn = document.getElementById("btn_clicar");
+        btn.onclick = function() {
+            var spn = document.getElementById("spn_clicar");
+            spn.innerHTML="<b>Top demais, consigo alterar!</b>";
+        }
+    </script>
+</body>
+</html>

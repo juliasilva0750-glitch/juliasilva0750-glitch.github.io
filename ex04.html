@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Exemplo 04</title>
+</head>
+<body>
+    <button onclick="playPause()">Play/Pause</button>
+    <br>
+    <span id="span1"></span>
+    <br>
+    <video id="video1" width="520" height="340">
+        <source src="https://video-previews.elements.envatousercontent.com/h264-video-previews/a2ee873c-3445-4797-a931-78ee16eec35d/36569467.mp4" type="video/mp4">
+    </video>
+    <script>
+        var myVideo = document.getElementById("video1");
+        var myStatus = document.getElementById("span1");
+        function playPause() { 
+            if (myVideo.paused) { 
+                myStatus.innerHTML="Executando...."
+                myVideo.play();
+            } else {
+                myStatus.innerHTML="Pausado...."
+                myVideo.pause();
+            }
+        }
+    </script>
+</body>
+</html>
